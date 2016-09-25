@@ -1,0 +1,26 @@
+//
+//  NNTableViewController.m
+//  Delegate
+//
+//  Created by iOS on 16/9/24.
+//  Copyright © 2016年 YMWM. All rights reserved.
+//
+
+#import "NNTableViewController.h"
+
+@interface NNTableViewController ()
+
+@end
+
+@implementation NNTableViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    self.navigationController.navigationBar.translucent = YES;
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    
+}
+
+
+@end
