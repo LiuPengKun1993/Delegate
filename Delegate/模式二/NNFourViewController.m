@@ -2,7 +2,7 @@
 //  NNFourViewController.m
 //  Delegate
 //
-//  Created by iOS on 16/9/24.
+//  Created by 柳钟宁 on 16/9/24.
 //  Copyright © 2016年 YMWM. All rights reserved.
 //
 
@@ -32,6 +32,8 @@
 */
 
 
+
+#pragma mark - 代理方式
 - (void)startTimer {
 
     if ([self.delegate respondsToSelector:@selector(startAlert)]) {

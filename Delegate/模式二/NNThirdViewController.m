@@ -2,9 +2,10 @@
 //  NNThirdViewController.m
 //  Delegate
 //
-//  Created by iOS on 16/9/24.
+//  Created by 柳钟宁 on 16/9/24.
 //  Copyright © 2016年 YMWM. All rights reserved.
-//
+
+//  代理简单使用（被注释的是 Block, 打开即可以用）
 
 #import "NNThirdViewController.h"
 #import "NNFourViewController.h"
@@ -16,7 +17,7 @@
 @implementation NNThirdViewController
 
 /**
- *  被注释掉的是Block方式
+ *  被注释掉的是 Block 方式
  */
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -2,7 +2,7 @@
 //  NNSecondViewController.h
 //  Delegate
 //
-//  Created by iOS on 16/9/24.
+//  Created by 柳钟宁 on 16/9/24.
 //  Copyright © 2016年 YMWM. All rights reserved.
 //
 
@@ -23,4 +23,5 @@
 @interface NNSecondViewController : UIViewController
 
 @property (nonatomic, assign) id<NNSecondViewControllerDelegate> delegate;
+
 @end

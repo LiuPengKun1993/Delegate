@@ -2,9 +2,10 @@
 //  NNFirstViewController.m
 //  Delegate
 //
-//  Created by iOS on 16/9/24.
+//  Created by 柳钟宁 on 16/9/24.
 //  Copyright © 2016年 YMWM. All rights reserved.
-//
+
+//  代理传值
 
 #import "NNFirstViewController.h"
 #import "NNSecondViewController.h"
@@ -16,6 +17,7 @@
 @implementation NNFirstViewController
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
     NNSecondViewController *secondVC = segue.destinationViewController;
     [secondVC setDelegate:self];
     

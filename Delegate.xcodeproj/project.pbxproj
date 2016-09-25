@@ -19,6 +19,10 @@
 		81A8B7531D96A1CC00EC59C8 /* NNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A8B7521D96A1CC00EC59C8 /* NNSecondViewController.m */; };
 		81A8B7561D96A5FF00EC59C8 /* NNThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A8B7551D96A5FF00EC59C8 /* NNThirdViewController.m */; };
 		81A8B7591D96A60900EC59C8 /* NNFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A8B7581D96A60900EC59C8 /* NNFourViewController.m */; };
+		81A8B75C1D97668B00EC59C8 /* NNFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A8B75B1D97668B00EC59C8 /* NNFiveViewController.m */; };
+		81A8B75F1D97669A00EC59C8 /* NNSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A8B75E1D97669A00EC59C8 /* NNSixViewController.m */; };
+		81A8B7631D976C9200EC59C8 /* NNSevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A8B7621D976C9200EC59C8 /* NNSevenViewController.m */; };
+		81A8B7661D976C9C00EC59C8 /* NNEightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A8B7651D976C9C00EC59C8 /* NNEightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,14 @@
 		81A8B7551D96A5FF00EC59C8 /* NNThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNThirdViewController.m; sourceTree = "<group>"; };
 		81A8B7571D96A60900EC59C8 /* NNFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNFourViewController.h; sourceTree = "<group>"; };
 		81A8B7581D96A60900EC59C8 /* NNFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNFourViewController.m; sourceTree = "<group>"; };
+		81A8B75A1D97668B00EC59C8 /* NNFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNFiveViewController.h; sourceTree = "<group>"; };
+		81A8B75B1D97668B00EC59C8 /* NNFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNFiveViewController.m; sourceTree = "<group>"; };
+		81A8B75D1D97669A00EC59C8 /* NNSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNSixViewController.h; sourceTree = "<group>"; };
+		81A8B75E1D97669A00EC59C8 /* NNSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNSixViewController.m; sourceTree = "<group>"; };
+		81A8B7611D976C9200EC59C8 /* NNSevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNSevenViewController.h; sourceTree = "<group>"; };
+		81A8B7621D976C9200EC59C8 /* NNSevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNSevenViewController.m; sourceTree = "<group>"; };
+		81A8B7641D976C9C00EC59C8 /* NNEightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNEightViewController.h; sourceTree = "<group>"; };
+		81A8B7651D976C9C00EC59C8 /* NNEightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNEightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +132,7 @@
 				81A8B74A1D96A18100EC59C8 /* 模式一 */,
 				81A8B7481D96A18100EC59C8 /* 模式二 */,
 				81A8B7491D96A18100EC59C8 /* 模式三 */,
+				81A8B7601D976C5600EC59C8 /* 模式四 */,
 				81A8B7151D969E3600EC59C8 /* Supporting Files */,
 			);
 			path = Delegate;
@@ -169,6 +182,10 @@
 		81A8B7491D96A18100EC59C8 /* 模式三 */ = {
 			isa = PBXGroup;
 			children = (
+				81A8B75A1D97668B00EC59C8 /* NNFiveViewController.h */,
+				81A8B75B1D97668B00EC59C8 /* NNFiveViewController.m */,
+				81A8B75D1D97669A00EC59C8 /* NNSixViewController.h */,
+				81A8B75E1D97669A00EC59C8 /* NNSixViewController.m */,
 			);
 			path = "模式三";
 			sourceTree = "<group>";
@@ -182,6 +199,18 @@
 				81A8B7521D96A1CC00EC59C8 /* NNSecondViewController.m */,
 			);
 			path = "模式一";
+			sourceTree = "<group>";
+		};
+		81A8B7601D976C5600EC59C8 /* 模式四 */ = {
+			isa = PBXGroup;
+			children = (
+				81A8B7611D976C9200EC59C8 /* NNSevenViewController.h */,
+				81A8B7621D976C9200EC59C8 /* NNSevenViewController.m */,
+				81A8B7641D976C9C00EC59C8 /* NNEightViewController.h */,
+				81A8B7651D976C9C00EC59C8 /* NNEightViewController.m */,
+			);
+			name = "模式四";
+			path = "模式三/模式四";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,12 +344,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A8B7631D976C9200EC59C8 /* NNSevenViewController.m in Sources */,
 				81A8B7591D96A60900EC59C8 /* NNFourViewController.m in Sources */,
 				81A8B7561D96A5FF00EC59C8 /* NNThirdViewController.m in Sources */,
 				81A8B71A1D969E3600EC59C8 /* AppDelegate.m in Sources */,
 				81A8B7501D96A1B200EC59C8 /* NNTableViewController.m in Sources */,
 				81A8B7531D96A1CC00EC59C8 /* NNSecondViewController.m in Sources */,
 				81A8B74D1D96A19E00EC59C8 /* NNFirstViewController.m in Sources */,
+				81A8B75F1D97669A00EC59C8 /* NNSixViewController.m in Sources */,
+				81A8B75C1D97668B00EC59C8 /* NNFiveViewController.m in Sources */,
+				81A8B7661D976C9C00EC59C8 /* NNEightViewController.m in Sources */,
 				81A8B7171D969E3600EC59C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
